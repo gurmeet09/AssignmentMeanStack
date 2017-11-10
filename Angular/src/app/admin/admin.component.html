@@ -1,0 +1,22 @@
+<nav class="navbar navbar-inverse bg-inverse">
+        <a href="" class="btn btn-info btn-lg">
+           <span class="glyphicon glyphicon-arrow-left"></span>
+        </a> 
+        <span style="font-size: 20px; margin-left: 26px; color:whitesmoke"><strong><b> Welcome Admin </b></strong></span>
+             <ul class="nav navbar-nav navbar-right">
+            <li><a (click)="logout()"><span class="glyphicon glyphicon-log-in"></span><b> Logout</b></a></li>
+         
+            <a href="admin/series/seasons" style="float: right;" class="btn btn-info btn-lg">
+           <span  class="glyphicon glyphicon-arrow-right"></span>
+        </a>
+     </ul>
+    </nav>
+    <br><br><br><br><br>
+    <label>select type:</label>
+    <select class="btn btn-info" name="users" #dropdown> 
+        <option class="btn btn-info" value="2" #movies > Add Movies</option>
+        <option class="btn btn-info" value="0" #series > Add Series</option>
+      </select>
+    <div id="mySidenav" class="sidenav">
+      <a [routerLink]="['series']" id="series">Series</a>
+    </div>

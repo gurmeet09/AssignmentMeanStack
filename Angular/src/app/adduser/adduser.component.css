@@ -1,0 +1,10 @@
+.form{
+    
+    width: 70%;
+    border-style: groove;
+    padding: 15px;
+    background: lightcyan;
+    margin: 20% 0% 0% 32%;
+    border-bottom-style: groove;
+    margin-top: 100px;
+}
